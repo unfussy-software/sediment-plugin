@@ -1,0 +1,15 @@
+#!/bin/sh
+# Finds the sediment command inside the app, then becomes `sediment mcp`.
+# Not on PATH: a user who never linked the command has none to find. Stdout
+# belongs to the protocol, so anything said here goes to stderr.
+
+helper=/Applications/Sediment.app/Contents/Helpers/sediment
+if [ ! -x "$helper" ]; then
+  app=$(mdfind "kMDItemCFBundleIdentifier == 'com.unfussysoftware.Sediment'" | head -n 1)
+  helper="$app/Contents/Helpers/sediment"
+fi
+if [ ! -x "$helper" ]; then
+  echo "Sediment isn’t installed on this Mac. Install it, then try again." >&2
+  exit 1
+fi
+exec "$helper" mcp
