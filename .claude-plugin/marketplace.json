@@ -5,7 +5,7 @@
     {
       "name": "sediment",
       "source": "./sediment",
-      "description": "File the pages you make in Cowork on your Sediment shelf."
+      "description": "Connects Claude Cowork to your Sediment shelf."
     }
   ]
 }
