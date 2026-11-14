@@ -1,5 +1,17 @@
 {
   "name": "sediment",
-  "description": "Connects Claude Cowork to your Sediment shelf.",
-  "author": { "name": "Unfussy Software" }
+  "displayName": "Sediment",
+  "description": "Lets Claude Cowork file and find the HTML artifacts on your Sediment shelf, through Sediment’s MCP server on your Mac.",
+  "author": {
+    "name": "Unfussy Software",
+    "url": "https://unfussy.software"
+  },
+  "homepage": "https://unfussy.software/sediment",
+  "repository": "https://github.com/unfussy-software/sediment-plugin",
+  "license": "Apache-2.0",
+  "keywords": ["sediment", "html", "shelf", "mcp"],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://unfussy.software/sediment/docs/working-with-agents",
+  "supportUrl": "https://github.com/unfussy-software/sediment-plugin/issues",
+  "privacyPolicyUrl": "https://unfussy.software/sediment/privacy"
 }

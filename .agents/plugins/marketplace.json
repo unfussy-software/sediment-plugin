@@ -1,0 +1,20 @@
+{
+  "name": "sediment",
+  "interface": {
+    "displayName": "Sediment"
+  },
+  "plugins": [
+    {
+      "name": "sediment",
+      "source": {
+        "source": "local",
+        "path": "./sediment"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

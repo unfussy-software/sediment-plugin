@@ -1,8 +1,7 @@
 {
   "mcpServers": {
     "sediment": {
-      "command": "/bin/sh",
-      "args": ["${CLAUDE_PLUGIN_ROOT}/server/sediment-mcp"]
+      "command": "${CLAUDE_PLUGIN_ROOT}/server/sediment-mcp"
     }
   }
 }

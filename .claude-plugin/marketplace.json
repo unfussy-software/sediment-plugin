@@ -5,7 +5,7 @@
     {
       "name": "sediment",
       "source": "./sediment",
-      "description": "Connects Claude Cowork to your Sediment shelf."
+      "description": "Lets Claude Cowork file and find the HTML artifacts on your Sediment shelf, through Sediment’s MCP server on your Mac."
     }
   ]
 }

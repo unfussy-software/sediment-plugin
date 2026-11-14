@@ -1,0 +1,33 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "sediment",
+  "description": "Connects your agent to your Sediment shelf, through Sediment’s MCP server on your Mac.",
+  "author": {
+    "name": "Unfussy Software",
+    "url": "https://unfussy.software"
+  },
+  "homepage": "https://unfussy.software/sediment",
+  "repository": "https://github.com/unfussy-software/sediment-plugin",
+  "license": "Apache-2.0",
+  "keywords": ["sediment", "html", "shelf", "mcp"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Sediment",
+        "shortDescription": "File and find the HTML artifacts on your Sediment shelf",
+        "longDescription": "Connects ChatGPT to Sediment on your Mac. Your agent shows you what it made before filing it, finds the artifacts already on your shelf, and keeps its tags and descriptions to your instructions. It runs Sediment’s own MCP server, which reaches your shelf only through Sediment.",
+        "developerName": "Unfussy Software",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://unfussy.software/sediment",
+        "privacyPolicyURL": "https://unfussy.software/sediment/privacy",
+        "defaultPrompt": [
+          "Make a git cheat sheet for my Sediment shelf",
+          "Show me what’s on my Sediment shelf so far"
+        ],
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}
