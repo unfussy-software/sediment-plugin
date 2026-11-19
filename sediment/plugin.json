@@ -15,7 +15,7 @@
       "interface": {
         "displayName": "Sediment",
         "shortDescription": "File and find the HTML artifacts on your Sediment shelf",
-        "longDescription": "Connects ChatGPT to Sediment on your Mac. Your agent shows you what it made before filing it, finds the artifacts already on your shelf, and keeps its tags and descriptions to your instructions. It runs Sediment’s own MCP server, which reaches your shelf only through Sediment.",
+        "longDescription": "Connects ChatGPT to Sediment on your Mac. Your agent files what it makes on your shelf, finds the artifacts already there, and keeps its tags and descriptions to your instructions. It runs Sediment’s own MCP server, which reaches your shelf only through Sediment.",
         "developerName": "Unfussy Software",
         "category": "Productivity",
         "capabilities": ["Read", "Write"],
