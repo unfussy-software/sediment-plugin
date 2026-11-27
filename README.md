@@ -14,8 +14,7 @@ made here is replaced by the next release.
 ## Do you need it?
 
 Only in a desktop app, Claude Desktop or ChatGPT. An agent in a terminal, such
-as Claude Code or Codex CLI, wants the `sediment` command and the
-`sediment-shelf` skill from `unfussy-software/sediment-skills` instead.
+as Claude Code or Codex CLI, wants the `sediment` command instead.
 
 You need Sediment on the same Mac, in a version that has `sediment mcp`.
 
